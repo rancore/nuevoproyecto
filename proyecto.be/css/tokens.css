@@ -1,0 +1,40 @@
+/* ==========================================================================
+   DESIGN TOKENS - SYNAPSE DIGITAL DESIGN SYSTEM
+   Norma de referencia: @01-design-system.md
+   ========================================================================== */
+
+:root {
+  /* --- Colores de Marca y Superficies --- */
+  --color-brand-bg: #07090E;
+  --color-brand-surface: #0D111A;
+  --color-brand-surface-hover: #101522;
+  --color-brand-surface-elevated: #171D2D;
+  
+  /* --- Bordes y Delimitadores --- */
+  --color-brand-border: rgba(255, 255, 255, 0.07);
+  --color-brand-border-hover: rgba(59, 130, 246, 0.35);
+  --color-brand-border-active: rgba(59, 130, 246, 0.5);
+
+  /* --- Acentos Lumínicos --- */
+  --color-brand-blue: #2563EB;
+  --color-brand-indigo: #4F46E5;
+  --color-brand-accent: #38BDF8;
+  --color-brand-cyan: #06B6D4;
+  --color-status-success: #10B981;
+  --color-status-success-bg: rgba(6, 78, 59, 0.95);
+
+  /* --- Tipografía Semántica --- */
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+  /* --- Sombras y Efectos Técnicos --- */
+  --shadow-card-inset: inset 0 1px 0 0 rgba(255, 255, 255, 0.06);
+  --shadow-card-inset-active: inset 0 1px 0 0 rgba(59, 130, 246, 0.3);
+  --shadow-glow-blue: 0 0 35px -5px rgba(37, 99, 235, 0.35);
+  --shadow-glow-pill: 0 0 20px -2px rgba(37, 99, 235, 0.45);
+  --shadow-elevation: 0 12px 30px -10px rgba(0, 0, 0, 0.6);
+
+  /* --- Curvas de Transición --- */
+  --transition-smooth: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: all 0.15s ease-in-out;
+}
